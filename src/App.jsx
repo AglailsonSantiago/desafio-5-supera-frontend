@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import React from 'react';
+import Transferencias from './components/Transferencias';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div></div>
-  )
+    <div className="App">
+      <Transferencias />
+    </div>
+  );
 }
 
-export default App
+export default App;
